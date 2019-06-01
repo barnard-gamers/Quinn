@@ -1,0 +1,28 @@
+{
+  "name": "elder-dragon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.0.0",
+    "encoding-japanese": "^1.0.29",
+    "opgg-scrape": "^1.0.3",
+    "request": "^2.88.0"
+  }
+}
